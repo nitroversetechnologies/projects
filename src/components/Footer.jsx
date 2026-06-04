@@ -78,9 +78,9 @@ function Footer() {
 
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p className="contact-item">📧 Email: info@valikings.com</p>
-          <p className="contact-item">📱 Phone: +91 XXXXXXXXXX</p>
-          <p className="contact-item">💬 WhatsApp: +91 XXXXXXXXXX</p>
+          <p className="contact-item">📧 Email: khushbarot22@gmail.com</p>
+          <p className="contact-item">📱 Phone: +91 95379 91017</p>
+          <p className="contact-item">💬 WhatsApp: +91 95379 91017</p>
           <p className="contact-item">📍 Location: India</p>
         </div>
       </div>

@@ -19,20 +19,45 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission - could send to email service
-    console.log("Form submitted:", formData);
+    // Send form data to WhatsApp
+    const message = `Hi VALIKINGS! I'm interested in your services. Name: ${formData.name}, Phone: ${formData.phone}, Email: ${formData.email}. Requirement: ${formData.requirement}`;
+    const whatsappLink = `https://wa.me/919537991017?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink, "_blank");
     setFormData({ name: "", phone: "", email: "", requirement: "" });
   };
 
   const handleWhatsApp = () => {
     const message = `Hi VALIKINGS! I'm interested in your services. Name: ${formData.name}, Phone: ${formData.phone}, Email: ${formData.email}. Requirement: ${formData.requirement}`;
-    const whatsappLink = `https://wa.me/919XXXXXXXXX?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/919537991017?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, "_blank");
   };
 
   return (
     <section className="contact" id="contact">
-      <h2>Get Bulk Quote</h2>
+      <section className="bulk-order-cta" id="bulk-order">
+        <div className="cta-content">
+          <h2>Need Bulk Custom T-Shirts?</h2>
+          <p>Get special pricing for businesses, colleges, events and brands.</p>
+
+          <div className="cta-highlights">
+            <div className="highlight">
+              <span className="number">1000+</span>
+              <span className="label">Orders Fulfilled</span>
+            </div>
+            <div className="highlight">
+              <span className="number">50+</span>
+              <span className="label">Cities Served</span>
+            </div>
+            <div className="highlight">
+              <span className="number">100%</span>
+              <span className="label">Satisfaction</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <h2>Get your order placed</h2>
 
       <form onSubmit={handleSubmit}>
         <input

@@ -2,6 +2,8 @@ import "./FeaturedGallery.css";
 import { useState } from "react";
 import frontImage from "../assets/oversized-front.jpg.jpeg";
 import backImage from "../assets/oversized-back.jpg.jpeg";
+import premiumStreetware from "../assets/Premium Streetwear.png";
+import oversizedClassic from "../assets/Oversized Classic.png";
 
 const galleryImages = [
   {
@@ -20,13 +22,13 @@ const galleryImages = [
     id: 3,
     title: "Premium Streetwear",
     category: "Collection",
-    image: frontImage,
+    image: premiumStreetware,
   },
   {
     id: 4,
     title: "Oversized Classic",
     category: "Collection",
-    image: backImage,
+    image: oversizedClassic,
   },
 ];
 

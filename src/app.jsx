@@ -5,7 +5,6 @@ import Categories from "./components/Categories";
 import PrintingServices from "./components/PrintingServices";
 import FeaturedGallery from "./components/FeaturedGallery";
 import WhyChooseUs from "./components/WhyChooseUs";
-import BulkOrderCTA from "./components/BulkOrderCTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -19,7 +18,6 @@ function App() {
       <PrintingServices />
       <FeaturedGallery />
       <WhyChooseUs />
-      <BulkOrderCTA />
       <Contact />
       <Footer />
     </>
