@@ -1,4 +1,4 @@
-import tshirt from "../assets/oversized-front.jpg.jpeg";
+import tshirt from "../assets/Premium Oversized T-Shirt.jpeg";
 import "./FeaturedProduct.css";
 
 function FeaturedProduct() {

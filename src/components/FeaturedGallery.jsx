@@ -1,6 +1,6 @@
 import "./FeaturedGallery.css";
 import { useState } from "react";
-import frontImage from "../assets/oversized-front.jpg.jpeg";
+import frontImage from "../assets/oversized-front.jpeg";
 import backImage from "../assets/oversized-back.jpg.jpeg";
 import premiumStreetware from "../assets/Premium Streetwear.png";
 import oversizedClassic from "../assets/Oversized Classic.png";
