@@ -1,0 +1,126 @@
+.contact {
+  padding: clamp(60px, 10vw, 100px) 8%;
+  background-image: url('../assets/favicon.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: fadeIn 0.8s ease-out;
+  position: relative;
+  overflow: hidden;
+  border-top: none;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: clamp(30px, 5vw, 50px);
+  font-weight: 800;
+  color: var(--text-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px 20px;
+  background: var(--primary-bg);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border-color: var(--accent-green);
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+  background: rgba(34, 197, 94, 0.02);
+}
+
+.contact textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact button {
+  flex: 1;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  transition: all 0.3s ease;
+}
+
+.contact .submit-btn {
+  background: var(--accent-green);
+  color: var(--primary-bg);
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+}
+
+.contact .submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(34, 197, 94, 0.4);
+}
+
+.contact .whatsapp-btn {
+  background: transparent;
+  color: var(--accent-green);
+  border: 2px solid var(--accent-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact .whatsapp-btn:hover {
+  background: var(--accent-green);
+  color: var(--primary-bg);
+  transform: translateY(-3px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 4%;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+}
