@@ -38,12 +38,7 @@ function Contact() {
         <div className="cta-content">
           <h2>Need Bulk Custom T-Shirts?</h2>
           <p>Get special pricing for businesses, colleges, events and brands.</p>
-
           <div className="cta-highlights">
-            <div className="highlight">
-              <span className="number">1000+</span>
-              <span className="label">Orders Fulfilled</span>
-            </div>
             <div className="highlight">
               <span className="number">50+</span>
               <span className="label">Cities Served</span>
@@ -53,7 +48,6 @@ function Contact() {
               <span className="label">Satisfaction</span>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -97,10 +91,10 @@ function Contact() {
 
         <div className="contact-buttons">
           <button type="submit" className="submit-btn">
-            Send Inquiry
+            Send Inquiry 
           </button>
           <button type="button" className="whatsapp-btn" onClick={handleWhatsApp}>
-            💬 WhatsApp Us
+            WhatsApp Us
           </button>
         </div>
       </form>

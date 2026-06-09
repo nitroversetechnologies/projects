@@ -7,25 +7,14 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-section">
+        <div className="footer-section footer-brand">
           <div className="footer-logo">
             <img src={logo} alt="VALIKINGS" />
           </div>
-          <p>Premium custom t-shirt printing and bulk manufacturing solutions.</p>
-          <div className="social-links">
-            <a href="#" className="social-icon" title="Instagram">
-              📸
-            </a>
-            <a href="#" className="social-icon" title="Facebook">
-              👍
-            </a>
-            <a href="#" className="social-icon" title="LinkedIn">
-              💼
-            </a>
-            <a href="#" className="social-icon" title="WhatsApp">
-              💬
-            </a>
-          </div>
+          <p>
+            Premium custom t-shirt printing and bulk manufacturing solutions for
+            brands, teams, events, and businesses.
+          </p>
         </div>
 
         <div className="footer-section">
@@ -48,30 +37,6 @@ function Footer() {
             </li>
             <li>
               <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="footer-section">
-          <h4>Products</h4>
-          <ul>
-            <li>
-              <a href="#product">Oversized T-Shirts</a>
-            </li>
-            <li>
-              <a href="#product">Custom Printing</a>
-            </li>
-            <li>
-              <a href="#product">Corporate Orders</a>
-            </li>
-            <li>
-              <a href="#product">Event Merchandise</a>
-            </li>
-            <li>
-              <a href="#product">Sports Jerseys</a>
-            </li>
-            <li>
-              <a href="#product">Hoodies</a>
             </li>
           </ul>
         </div>
