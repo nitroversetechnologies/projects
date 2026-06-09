@@ -16,8 +16,8 @@ function Hero() {
         </p>
 
         <div className="cta-buttons">
-          <button className="primary-btn">Explore Collection</button>
-          <button className="secondary-btn">Get Bulk Quote</button>
+          <a href="#gallery" className="primary-btn">Explore Collection</a>
+          <a href="#contact" className="secondary-btn">Get Bulk Quote</a>
         </div>
       </div>
     </section>

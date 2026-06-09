@@ -61,7 +61,8 @@
   animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
-.overlay button {
+.overlay .cta-buttons a,
+.overlay .cta-buttons button {
   padding: clamp(12px, 2vw, 16px) clamp(25px, 4vw, 40px);
   border: none;
   border-radius: 10px;
@@ -71,6 +72,10 @@
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .overlay .primary-btn {
