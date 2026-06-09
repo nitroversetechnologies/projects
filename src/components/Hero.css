@@ -27,7 +27,7 @@
 
 .overlay {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   z-index: 2;
   position: relative;
   max-width: 900px;

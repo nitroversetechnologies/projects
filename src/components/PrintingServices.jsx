@@ -4,22 +4,22 @@ const services = [
   {
     title: "DTF Printing",
     description: "High-quality detailed prints with vibrant colors and excellent durability. Perfect for custom designs and artwork.",
-    icon: "🎨",
+    
   },
   {
     title: "Screen Printing",
     description: "Best for bulk orders with consistent quality. Ideal for corporate branding and large-scale production.",
-    icon: "🖨️",
+    
   },
   {
     title: "Vinyl Printing",
     description: "Premium finish with professional appearance. Great for logos and branded merchandise with lasting quality.",
-    icon: "✨",
+    
   },
   {
     title: "Embroidery",
     description: "Luxury branding option with premium feel. Perfect for high-end corporate gifts and exclusive collections.",
-    icon: "🧵",
+    
   },
 ];
 
