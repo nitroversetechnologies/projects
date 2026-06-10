@@ -60,7 +60,7 @@
   font-size: 0.95rem;
 }
 
-.footer-section a:hover {
+.footer-section ul li a:hover {
   color: var(--accent-green);
   transform: translateX(5px);
   display: inline-block;
@@ -80,16 +80,15 @@
   text-decoration: none;
   line-height: 1.2;
   transform-origin: left center;
-  transition: color 0.25s ease, background-color 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: color 0.25s ease, background-color 0.25s ease;
   box-shadow: none;
 }
 
 .contact-item:hover {
   color: var(--accent-green);
   background-color: rgba(34, 197, 94, 0.04);
-  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.12),
-    0 0 14px rgba(34, 197, 94, 0.08);
+  transform: none;
+  box-shadow: none;
 }
 
 .contact-button {
@@ -106,8 +105,7 @@
 .contact-button:focus-visible,
 .contact-item:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.14),
-    0 0 12px rgba(34, 197, 94, 0.08);
+  box-shadow: none;
 }
 
 .contact-icon {
